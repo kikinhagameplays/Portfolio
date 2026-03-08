@@ -412,8 +412,7 @@ strong {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-template-rows: repeat(2, minmax(0, 1fr));
-  column-gap: 31px;
-  row-gap: 17px;
+  gap: 17px;
 }
 
 .project-card {
@@ -661,9 +660,10 @@ strong {
     line-height: 0.8;
   }
 
-  .mobile-mark .script-letter {
-    font-size: 82px;
-    margin-right: 0;
+  .mobile-mark img {
+    display: block;
+    height: 82px;
+    width: auto;
   }
 
   .identity {
